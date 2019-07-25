@@ -24,3 +24,11 @@ cd src
 ghc -fobject-code -O3 haskellEd.hs -o hed 
 ```
 
+# Use
+
+```
+haskellEd [file-name]
+```
+
+
+
