@@ -14,8 +14,13 @@ cabal install ansi-terminal
 # Compiler
 
 ```
-ghc -Object-code -O3 haskellEd.hs -o hed
+make
 ```
 
+OR
 
+```
+cd src
+ghc -fobject-code -O3 haskellEd.hs -o hed 
+```
 
