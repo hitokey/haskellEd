@@ -13,7 +13,9 @@ cabal install ansi-terminal
 
 # Install
 
+
 ```
+cd haskellEd
 cabal install
 ```
 # Use
