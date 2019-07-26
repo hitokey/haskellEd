@@ -243,7 +243,7 @@ executeCommand command doc
     | abriv == 'r' && args >= 1 = replaceLine doc stament
     | abriv == 'r' = replaceLine doc []
     | abriv == 'R' && args == 0 = replaceLine doc (topKillRing doc)
-    | abriv == 'i' && args >= 1 = insertLine doc stament
+    | abriv == 'i' && args >= 1 = insertLine (stackDelete doc) stament
     | abriv == 'I' && args == 0 = insertLine doc (topKillRing doc)
     | abriv == 'a' && args >= 1 = appendLine (stackDelete doc) stament
     | abriv == 'A' && args == 0 = appendLine doc (topKillRing doc)

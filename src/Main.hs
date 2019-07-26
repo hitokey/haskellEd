@@ -1,3 +1,5 @@
+module Main where
+
 import Control.Monad.Trans
 import System.Console.Haskeline
 import System.Console.ANSI

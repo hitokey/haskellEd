@@ -11,23 +11,15 @@ A text editor for AWS lambda.
 cabal install ansi-terminal
 ```
 
-# Compiler
+# Install
 
 ```
-make
+cabal install
 ```
-
-OR
-
-```
-cd src
-ghc -fobject-code -O3 haskellEd.hs -o hed 
-```
-
 # Use
 
 ```
-haskellEd [file-name]
+heditor [file-name]
 ```
 
 
