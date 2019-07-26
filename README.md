@@ -1,4 +1,3 @@
-
 A text editor for AWS lambda. 
 
 # Prerequisites
